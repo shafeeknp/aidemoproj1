@@ -1,6 +1,6 @@
 import pandas as pd
 
-# creating data fram
+# creating data fram for test
 data = {
     "Name": ["Tom", "nick", "krish", "jack"],
     "Age": [20, 21, 19, 18],

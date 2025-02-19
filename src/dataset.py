@@ -8,6 +8,7 @@ data = {
 }
 df = pd.DataFrame(data)
 print(df)  # print data frame
-df.replace("nick", "Nick", inplace=True)  # replace NY with New York
+df.replace("nick", "Nick", inplace=True)  # replace nick with Nick
 print(df)  # print data frame
-df.replace
+df.replace("NY", "New York", inplace=True)  # replace NY with New York
+print(df)  # print data frame

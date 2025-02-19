@@ -10,3 +10,4 @@ df = pd.DataFrame(data)
 print(df)  # print data frame
 df.replace("nick", "Nick", inplace=True)  # replace NY with New York
 print(df)  # print data frame
+df.replace
